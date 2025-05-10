@@ -251,3 +251,88 @@ padding: auto;
  color: white;
   
 }
+
+
+/* responsive for mobile  */
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 576px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .nav-item {
+    margin-right: 0;
+  }
+
+  .brand {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner-textbox {
+    margin-left: 0;
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .banner-img {
+    margin-right: 0;
+    max-width: 90%;
+    margin-top: 20px;
+  }
+
+  .logo-container {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 20px;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+
+  .card {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .popular-collection-title {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+  }
+
+  .Featured-products {
+    flex-direction: column;
+    margin: 50px 20px;
+    gap: 40px;
+  }
+
+  .footer-container {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  .btn-primary, .btn-primary2, .btn-primary3 {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+  }
+}
